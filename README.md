@@ -1,6 +1,8 @@
 # Java Azure Function consuming events from Azure Event Hub
 
-# Add local.settings.json with your event hub access and Job storage Conecction String
+# Before to run locally
+
+## Add local.settings.json with your event hub access and Job storage Conecction String
 
 With the next JSON structure:
 ```yaml
@@ -12,6 +14,7 @@ With the next JSON structure:
     "FUNCTIONS_WORKER_RUNTIME": "java"
   }
 }
+```
 
 # Run Locally
 
